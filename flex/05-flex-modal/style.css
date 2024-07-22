@@ -67,3 +67,25 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+/* Lets gooo */
+
+.modal {
+  display: flex;
+  padding: 16px;
+  gap: 16px;
+}
+.icon, .close-button {
+  flex: 1 0 auto;
+}
+
+.header {
+  font-size: large;
+  font-weight: bold;
+  
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
